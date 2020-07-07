@@ -1,2 +1,2 @@
 # MicrosoftAzureAdministratorWorkshop-CustomLABs
- Microsoft Azure Administrator Workshop, customized lab guides
+ Microsoft Azure Administrator Workshop, adapted lab guides
