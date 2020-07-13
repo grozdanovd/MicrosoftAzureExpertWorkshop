@@ -33,11 +33,11 @@
       }
     },
   "variables": {
-    "vmName": "[concat('d2.01-vm',parameters('nameSuffix'))]",
+    "vmName": "[concat('d2-01-vm',parameters('nameSuffix'))]",
     "vmExtensionName": "customScriptExtension",
-    "nicName": "[concat('d2.01-nic',parameters('nameSuffix'))]",
-    "virtualNetworkName": "[concat('d2.01-vnet',parameters('nameSuffix'))]",
-    "nsgName": "[concat('d2.01-nsg',parameters('nameSuffix'))]",
+    "nicName": "[concat('d2-01-nic',parameters('nameSuffix'))]",
+    "virtualNetworkName": "[concat('d2-01-vnet',parameters('nameSuffix'))]",
+    "nsgName": "[concat('d2-01-nsg',parameters('nameSuffix'))]",
     "vnetIpPrefix": "[concat('10.6',parameters('nameSuffix'),'.0.0/22')]", 
     "subnetIpPrefix": "[concat('10.6',parameters('nameSuffix'),'.0.0/24')]", 
     "subnetName": "subnet0",

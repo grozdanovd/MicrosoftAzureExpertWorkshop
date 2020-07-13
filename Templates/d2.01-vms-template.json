@@ -11,14 +11,14 @@
         },
         "vm0Name": {
             "type": "string",
-            "defaultValue": "d2.01-vm0",
+            "defaultValue": "d2-01-vm0",
             "metadata": {
                 "description": "VM0 name"
             }
         },
         "vm1Name": {
             "type": "string",
-            "defaultValue": "d2.01-vm1",
+            "defaultValue": "d2-01-vm1",
             "metadata": {
                 "description": "VM1 name"
             }
@@ -37,7 +37,7 @@
         },
         "virtualNetworkName": {
             "type": "string",
-            "defaultValue": "d2.01-vnet01",
+            "defaultValue": "d2-01-vnet01",
             "metadata": {
                 "description": "Virtual network name"
             }
@@ -47,10 +47,10 @@
         "vm0Name": "[parameters('vm0Name')]",
         "vm1Name": "[parameters('vm1Name')]",
         "vmExtensionName": "customScriptExtension",
-        "nic0": "d2.01-nic0",
-        "nic1": "d2.01-nic1",
+        "nic0": "d2-01-nic0",
+        "nic1": "d2-01-nic1",
         "virtualNetworkName": "[parameters('virtualNetworkName')]",
-        "nsgName": "d2.01-nsg01",
+        "nsgName": "d2-01-nsg01",
         "subnet0Name": "subnet0",
         "subnet1Name": "subnet1",
         "subnet1Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnet0Name'))]",
